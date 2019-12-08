@@ -1,5 +1,5 @@
-import common.FlashcardsStage3Test;
+import common.FlashcardsStage4Test;
 
-public class FlashcardsTest extends FlashcardsStage3Test {
+public class FlashcardsTest extends FlashcardsStage4Test {
     // just empty class, but not abstract so it can be run
 }
