@@ -105,8 +105,8 @@ class DialogClue(private val phrases: List<PhraseLine>) {
                         return wrongOutputSizeFeedback()
                     }
 
-
-                    val result = phraseLine.checker(lineIter.next(), context)
+                    val line: String = lineIter.next()
+                    val result = phraseLine.checker(line, context)
                     if (result != CheckResult.TRUE) {
                         // add the test start to output:
                         val trimmedLines = lines.take(lineIter.nextIndex())
