@@ -162,15 +162,6 @@ files:
                 .setAttach(dialogClue)
     }
   learner_created: false
-- name: test/FlashcardsTest.java
-  visible: false
-  text: |
-    import common.FlashcardsStage4Test;
-
-    public class FlashcardsTest extends FlashcardsStage4Test {
-        // just empty class, but not abstract so it can be run
-    }
-  learner_created: false
 - name: src/flashcards/Main.java
   visible: true
   text: |

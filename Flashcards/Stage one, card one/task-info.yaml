@@ -12,15 +12,6 @@ files:
         }
     }
   learner_created: false
-- name: test/FlashcardsTest.java
-  visible: false
-  text: |
-    import common.FlashcardsStage1Test;
-
-    public class FlashcardsTest extends FlashcardsStage1Test {
-        // just empty class, but not abstract so it can be run
-    }
-  learner_created: false
 feedback_link: https://hyperskill.org/projects/44/stages/232/implement
 status: Solved
 record: 1

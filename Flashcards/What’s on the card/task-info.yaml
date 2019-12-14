@@ -1,15 +1,6 @@
 type: edu
 custom_name: What’s on the card?
 files:
-- name: test/FlashcardsTest.java
-  visible: false
-  text: |
-    import common.FlashcardsStage2Test;
-
-    public class FlashcardsTest extends FlashcardsStage2Test {
-        // just empty class, but not abstract so it can be run
-    }
-  learner_created: false
 - name: src/flashcards/Main.java
   visible: true
   text: |
